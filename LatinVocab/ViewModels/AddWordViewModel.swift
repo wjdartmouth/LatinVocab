@@ -52,8 +52,13 @@ final class AddWordViewModel {
         word.english = english.trimmingCharacters(in: .whitespaces)
         word.partOfSpeech = partOfSpeech
         word.notes = notes.trimmingCharacters(in: .whitespaces)
-        try? context.save()
-        return true
+        do {
+            try context.save()
+            return true
+        } catch {
+            errorMessage = "Failed to save: \(error.localizedDescription)"
+            return false
+        }
     }
 
     func reset() {
