@@ -4,6 +4,8 @@ struct FlashcardView: View {
     let prompt: String
     let answer: String
     let partOfSpeech: String
+    let promptLabel: String
+    let answerLabel: String
     let isFlipped: Bool
     let onFlip: () -> Void
 
@@ -12,7 +14,7 @@ struct FlashcardView: View {
             // Front
             CardFace(
                 text: prompt,
-                label: "Latin",
+                label: promptLabel,
                 partOfSpeech: partOfSpeech,
                 color: .indigo
             )
@@ -22,7 +24,7 @@ struct FlashcardView: View {
             // Back
             CardFace(
                 text: answer,
-                label: "English",
+                label: answerLabel,
                 partOfSpeech: partOfSpeech,
                 color: .teal
             )

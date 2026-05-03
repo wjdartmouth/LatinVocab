@@ -18,7 +18,6 @@ struct QuizView: View {
                         score: viewModel.sessionScore,
                         total: viewModel.sessionTotal
                     ) {
-                        viewModel.saveSession(context: context)
                         viewModel.startSession(with: quizableWords, direction: selectedDirection)
                     }
                 } else if viewModel.shuffledWords.isEmpty {
@@ -50,6 +49,8 @@ struct QuizView: View {
                             prompt: viewModel.promptText,
                             answer: viewModel.answerText,
                             partOfSpeech: word.partOfSpeech,
+                            promptLabel: selectedDirection == .latinToEnglish ? "Latin" : "English",
+                            answerLabel: selectedDirection == .latinToEnglish ? "English" : "Latin",
                             isFlipped: viewModel.isFlipped,
                             onFlip: viewModel.flipCard
                         )
@@ -105,6 +106,11 @@ struct QuizView: View {
             .onAppear {
                 if viewModel.shuffledWords.isEmpty {
                     viewModel.startSession(with: quizableWords, direction: selectedDirection)
+                }
+            }
+            .onChange(of: viewModel.isSessionComplete) { _, completed in
+                if completed {
+                    viewModel.saveSession(context: context)
                 }
             }
             .sheet(isPresented: $showingSettings) {

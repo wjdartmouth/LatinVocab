@@ -1,7 +1,7 @@
 import SwiftUI
 import SwiftData
 
-struct ProgressView: View {
+struct ProgressDashboardView: View {
     @Query private var words: [Word]
     @Query private var sessions: [QuizSession]
     @State private var viewModel = ProgressViewModel()

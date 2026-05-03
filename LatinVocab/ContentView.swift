@@ -13,7 +13,7 @@ struct ContentView: View {
                     Label("Quiz", systemImage: "rectangle.on.rectangle")
                 }
 
-            ProgressView()
+            ProgressDashboardView()
                 .tabItem {
                     Label("Progress", systemImage: "chart.bar.fill")
                 }
