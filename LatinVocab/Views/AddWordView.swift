@@ -41,7 +41,7 @@ struct AddWordView: View {
                 }
             }
             .navigationTitle(wordToEdit == nil ? "Add Word" : "Edit Word")
-            .navigationBarTitleDisplayMode(.inline)
+            .modifier(IOSNavigationModifier())
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
                     Button("Cancel") { dismiss() }
@@ -63,4 +63,18 @@ struct AddWordView: View {
             }
         }
     }
+    #if os(iOS)
+    struct IOSNavigationModifier: ViewModifier {
+        func body(content: Content) -> some View {
+            content.navigationBarTitleDisplayMode(.inline)
+        }
+    }
+    #else
+    struct IOSNavigationModifier: ViewModifier {
+        func body(content: Content) -> some View {
+            content
+        }
+    }
+    #endif
 }
+

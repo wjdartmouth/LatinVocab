@@ -1,5 +1,7 @@
 import SwiftUI
 
+
+
 struct FlashcardView: View {
     let prompt: String
     let answer: String
@@ -70,7 +72,7 @@ struct CardFace: View {
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(
             RoundedRectangle(cornerRadius: 20)
-                .fill(Color(.secondarySystemBackground))
+                .fill(.secondary)
                 .shadow(color: .black.opacity(0.08), radius: 12, x: 0, y: 4)
         )
         .overlay(

@@ -179,7 +179,9 @@ struct QuizSettingsView: View {
                 }
             }
             .navigationTitle("Quiz Settings")
+            #if os(iOS)
             .navigationBarTitleDisplayMode(.inline)
+            #endif
             .toolbar {
                 ToolbarItem(placement: .confirmationAction) {
                     Button("Start", action: onStart)

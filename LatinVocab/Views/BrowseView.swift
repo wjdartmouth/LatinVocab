@@ -31,7 +31,7 @@ struct BrowseView: View {
                     .padding(.horizontal)
                     .padding(.vertical, 8)
                 }
-                .background(Color(.systemBackground))
+                .background(Color(.gray).opacity(0.1))
 
                 Divider()
 
@@ -133,7 +133,7 @@ struct FilterChip: View {
                 .font(.caption)
                 .padding(.horizontal, 12)
                 .padding(.vertical, 6)
-                .background(isSelected ? Color.indigo : Color(.secondarySystemBackground))
+                .background(isSelected ? Color.indigo : Color(.gray).opacity(0.12))
                 .foregroundStyle(isSelected ? .white : .primary)
                 .clipShape(Capsule())
         }
