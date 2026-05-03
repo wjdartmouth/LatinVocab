@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88B196F348CE8F239D3C2919 /* LatinVocabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C43DA2B2A8FC783E8B1A06 /* LatinVocabApp.swift */; };
+		AE73D0E00B31A63D833DA335 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52E236CA7F9E4035D385CE7 /* ContentView.swift */; };
+		A8674F9383CB124AD5C3EDD8 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235BB3A26C5771B2148EE490 /* Word.swift */; };
+		DCC059738A61CC933003DB43 /* QuizSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4548FEC67A03589B1F03EAC /* QuizSession.swift */; };
+		84FA2E97EDB20213434E873B /* BrowseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7218D77CC252377EE0513C6 /* BrowseViewModel.swift */; };
+		177F05184866024E53ABABFE /* QuizViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23047D3E2EA43C59E013DF78 /* QuizViewModel.swift */; };
+		F41D5745CF6623B9D0F0068C /* ProgressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A98CE71B2C40909A762AE99 /* ProgressViewModel.swift */; };
+		1F9ADC47606F75381A791641 /* AddWordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4737CC4CF03F863492B1E2ED /* AddWordViewModel.swift */; };
+		ED97EC42ACBEFCE59AA5557F /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0519388F88CC4D9446FE13F6 /* BrowseView.swift */; };
+		EB6E2E421E3835211F931988 /* AddWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6FA8E4D79F2EB3B1FE741 /* AddWordView.swift */; };
+		DE43F9FEBD81A67869EE7F42 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1487E116D9FF206F7D0EAA0F /* QuizView.swift */; };
+		47CAB2EEF862B42E5BF8B860 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BB7BFD87CA27E894F973F /* ProgressView.swift */; };
+		BDB7D438EEDE6D58BEDDDC7D /* FlashcardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF29651E2A7CFD3E214240B /* FlashcardView.swift */; };
+		536FBF8101C54E06949B43B9 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E5C4A5186CC2D7BDDF9768 /* PersistenceController.swift */; };
+		AA00001100000000000000AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 487A8028D5EC19CCEBCA3B7C /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41C43DA2B2A8FC783E8B1A06 /* LatinVocabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatinVocabApp.swift; sourceTree = "<group>"; };
+		D52E236CA7F9E4035D385CE7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0D34CC4A6ABBD94C2B6A637E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		487A8028D5EC19CCEBCA3B7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		235BB3A26C5771B2148EE490 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		B4548FEC67A03589B1F03EAC /* QuizSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizSession.swift; sourceTree = "<group>"; };
+		F7218D77CC252377EE0513C6 /* BrowseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseViewModel.swift; sourceTree = "<group>"; };
+		23047D3E2EA43C59E013DF78 /* QuizViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewModel.swift; sourceTree = "<group>"; };
+		1A98CE71B2C40909A762AE99 /* ProgressViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewModel.swift; sourceTree = "<group>"; };
+		4737CC4CF03F863492B1E2ED /* AddWordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWordViewModel.swift; sourceTree = "<group>"; };
+		0519388F88CC4D9446FE13F6 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
+		83E6FA8E4D79F2EB3B1FE741 /* AddWordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWordView.swift; sourceTree = "<group>"; };
+		1487E116D9FF206F7D0EAA0F /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		5B5BB7BFD87CA27E894F973F /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		EBF29651E2A7CFD3E214240B /* FlashcardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardView.swift; sourceTree = "<group>"; };
+		F0E5C4A5186CC2D7BDDF9768 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		949D477C5EDE049F501C6482 /* LatinVocab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LatinVocab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB00001100000000000000BB /* LatinVocabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatinVocabTests.swift; sourceTree = "<group>"; };
+		BB00001200000000000000BB /* LatinVocabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LatinVocabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		642A49D23F5E44F0E1F68ED5 /* LatinVocab */ = {
+			isa = PBXGroup;
+			children = (
+				0DB933EDA2CA015925DFE609 /* LatinVocab */,
+				BB00002200000000000000BB /* LatinVocabTests */,
+				21E155D6FE28ADA886C1B619 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21E155D6FE28ADA886C1B619 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				949D477C5EDE049F501C6482 /* LatinVocab.app */,
+				BB00001200000000000000BB /* LatinVocabTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DB933EDA2CA015925DFE609 /* LatinVocab */ = {
+			isa = PBXGroup;
+			children = (
+				41C43DA2B2A8FC783E8B1A06 /* LatinVocabApp.swift */,
+				D52E236CA7F9E4035D385CE7 /* ContentView.swift */,
+				0D34CC4A6ABBD94C2B6A637E /* Info.plist */,
+				487A8028D5EC19CCEBCA3B7C /* Assets.xcassets */,
+				169624CD91CA73C514B4CD6D /* Models */,
+				3EBC112408B8147F4E2FADDF /* ViewModels */,
+				FC89E30A16530870540456D4 /* Views */,
+				0AE8B8357207C7AD86B5735F /* Services */,
+			);
+			path = LatinVocab;
+			sourceTree = "<group>";
+		};
+		169624CD91CA73C514B4CD6D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				235BB3A26C5771B2148EE490 /* Word.swift */,
+				B4548FEC67A03589B1F03EAC /* QuizSession.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3EBC112408B8147F4E2FADDF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F7218D77CC252377EE0513C6 /* BrowseViewModel.swift */,
+				23047D3E2EA43C59E013DF78 /* QuizViewModel.swift */,
+				1A98CE71B2C40909A762AE99 /* ProgressViewModel.swift */,
+				4737CC4CF03F863492B1E2ED /* AddWordViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FC89E30A16530870540456D4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0519388F88CC4D9446FE13F6 /* BrowseView.swift */,
+				83E6FA8E4D79F2EB3B1FE741 /* AddWordView.swift */,
+				1487E116D9FF206F7D0EAA0F /* QuizView.swift */,
+				5B5BB7BFD87CA27E894F973F /* ProgressView.swift */,
+				EBF29651E2A7CFD3E214240B /* FlashcardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0AE8B8357207C7AD86B5735F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F0E5C4A5186CC2D7BDDF9768 /* PersistenceController.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BB00002200000000000000BB /* LatinVocabTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB00001100000000000000BB /* LatinVocabTests.swift */,
+			);
+			path = LatinVocabTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA75F2CD7EF1A72D0EE42873 /* LatinVocab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2B4A8C1E200C90049E07344 /* Build configuration list for PBXNativeTarget "LatinVocab" */;
+			buildPhases = (
+				A7AB45DDD25B3B95E7B07D6B /* Sources */,
+				C5B6635B71B27FD269A22291 /* Resources */,
+				78587FAB89352DA004CD8DB9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LatinVocab;
+			productName = LatinVocab;
+			productReference = 949D477C5EDE049F501C6482 /* LatinVocab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB00003300000000000000BB /* LatinVocabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB00004400000000000000BB /* Build configuration list for PBXNativeTarget "LatinVocabTests" */;
+			buildPhases = (
+				BB00005500000000000000BB /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB00006600000000000000BB /* PBXTargetDependency */,
+			);
+			name = LatinVocabTests;
+			productName = LatinVocabTests;
+			productReference = BB00001200000000000000BB /* LatinVocabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23C82E54D292C5FD911067DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CA75F2CD7EF1A72D0EE42873 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					BB00003300000000000000BB = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = CA75F2CD7EF1A72D0EE42873;
+					};
+				};
+			};
+			buildConfigurationList = 38E3F4BCF24449ECF44BAB4F /* Build configuration list for PBXProject "LatinVocab" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 642A49D23F5E44F0E1F68ED5;
+			productRefGroup = 21E155D6FE28ADA886C1B619 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA75F2CD7EF1A72D0EE42873 /* LatinVocab */,
+				BB00003300000000000000BB /* LatinVocabTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5B6635B71B27FD269A22291 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA00001100000000000000AA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7AB45DDD25B3B95E7B07D6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B196F348CE8F239D3C2919 /* LatinVocabApp.swift in Sources */,
+				AE73D0E00B31A63D833DA335 /* ContentView.swift in Sources */,
+				A8674F9383CB124AD5C3EDD8 /* Word.swift in Sources */,
+				DCC059738A61CC933003DB43 /* QuizSession.swift in Sources */,
+				84FA2E97EDB20213434E873B /* BrowseViewModel.swift in Sources */,
+				177F05184866024E53ABABFE /* QuizViewModel.swift in Sources */,
+				F41D5745CF6623B9D0F0068C /* ProgressViewModel.swift in Sources */,
+				1F9ADC47606F75381A791641 /* AddWordViewModel.swift in Sources */,
+				ED97EC42ACBEFCE59AA5557F /* BrowseView.swift in Sources */,
+				EB6E2E421E3835211F931988 /* AddWordView.swift in Sources */,
+				DE43F9FEBD81A67869EE7F42 /* QuizView.swift in Sources */,
+				47CAB2EEF862B42E5BF8B860 /* ProgressView.swift in Sources */,
+				BDB7D438EEDE6D58BEDDDC7D /* FlashcardView.swift in Sources */,
+				536FBF8101C54E06949B43B9 /* PersistenceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB00005500000000000000BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB00007700000000000000BB /* LatinVocabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78587FAB89352DA004CD8DB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB00006600000000000000BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA75F2CD7EF1A72D0EE42873 /* LatinVocab */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXBuildFile section (tests) */
+		BB00007700000000000000BB /* LatinVocabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB00001100000000000000BB /* LatinVocabTests.swift */; };
+/* End PBXBuildFile section (tests) */
+
+/* Begin XCBuildConfiguration section */
+		C48B9DFC65DAC8EE150B67B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5C96A5055DD6BD189F140A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		38D1599B5BDB4FE8C635DACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LatinVocab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.latinvocab.app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9165C1A42FD23837D6FAFB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LatinVocab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.latinvocab.app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB00008800000000000000BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.latinvocab.app.tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LatinVocab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LatinVocab";
+			};
+			name = Debug;
+		};
+		BB00009900000000000000BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.latinvocab.app.tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LatinVocab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LatinVocab";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38E3F4BCF24449ECF44BAB4F /* Build configuration list for PBXProject "LatinVocab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C48B9DFC65DAC8EE150B67B1 /* Debug */,
+				B5C96A5055DD6BD189F140A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2B4A8C1E200C90049E07344 /* Build configuration list for PBXNativeTarget "LatinVocab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38D1599B5BDB4FE8C635DACF /* Debug */,
+				A9165C1A42FD23837D6FAFB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB00004400000000000000BB /* Build configuration list for PBXNativeTarget "LatinVocabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB00008800000000000000BB /* Debug */,
+				BB00009900000000000000BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 23C82E54D292C5FD911067DB /* Project object */;
+}
